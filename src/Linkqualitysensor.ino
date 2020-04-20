@@ -139,7 +139,7 @@ void handleSBusFrame() {
     case 12: current_channel_2 = ((sbusBuffer[16]>>1|sbusBuffer[17]<<7) & 0x07FF); break;
     case 13: current_channel_2 = ((sbusBuffer[17]>>4|sbusBuffer[18]<<4) & 0x07FF); break;
     case 14: current_channel_2 = ((sbusBuffer[18]>>7|sbusBuffer[19]<<1|sbusBuffer[20]<<9)  & 0x07FF); break;
-    case 15: current_channel_2 = ((sbusBuffer[20]>>2|sbusBuffer[21]<<6) & 0x07FF); break:
+    case 15: current_channel_2 = ((sbusBuffer[20]>>2|sbusBuffer[21]<<6) & 0x07FF); break;
     case 16: current_channel_2 = ((sbusBuffer[21]>>5|sbusBuffer[22]<<3) & 0x07FF); break;
   }
 
