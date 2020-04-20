@@ -6,6 +6,7 @@ Failsafe duration is displayed on the same 5105 custom sensor every 10s for 1s
 DISPLAYFS - maxim number of detected failsafes to display
 LOWCHAN - channel with triangle wave generation (one in 8ch mode, lower (1-8) channel in 16 channels mode.
 HIGHCHAN - upper channel (9-16) in 16 channels mode
+CH16 - enable 16 channnel mode
 
 Triangle generation in OpenTX:
 L08 a<x 0
