@@ -1,5 +1,5 @@
 # LinkqualitysensorNano
-Link quality sensor for Frsky on Arduino Nano
+Link quality sensor for Frsky on Arduino Nano based on RealTadango LQ sensor. Custom name 5105. SBUS out connected through inverter to RX0, S-port - to D3.
 Lost frame detection based on tringle wave generation on one  or 2 channels.
 Failsafe duration is displayed on the same 5105 custom sensor every 10s for 1s
 @define's : 
