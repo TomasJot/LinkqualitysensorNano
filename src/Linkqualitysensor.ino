@@ -2,7 +2,7 @@
 #include <SPort.h>
 
 //#define ERSKYTX
-//#define CH16 //16 or 8 ch mode
+#define CH16 //16 or 8 ch mode
 #define DISPLAYFS 10// maximum number of failsafes to display
 #define LOWCHAN 8 //channel in 8 channel mode and low channel in 16ch mode
 #define HIGHCHAN 16 // high channel in 16ch mode
